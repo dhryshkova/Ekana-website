@@ -1,0 +1,24 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Fonts
+$font-open: 'Open Sans', sans-serif;
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #27ae60;
+
+$break-xs: 320px;
+$break-s: 767px;
+$break-m: 991px;
+$break-l: 1200px;
+
+.spacing{
+  padding: 7% 0;
+}

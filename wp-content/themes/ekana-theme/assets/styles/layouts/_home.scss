@@ -1,0 +1,321 @@
+.content-main{
+  .line{
+    margin: auto;
+    width: 60px;
+    border-top: 3px solid #333333;
+  }
+
+  .section-header {
+    text-align: center;
+    h2{
+      text-transform: uppercase;
+      .highlight {
+        color: #ffcc33;
+        font-weight: 500;
+      }
+    }
+    h5{
+      letter-spacing: 1px;
+      margin-bottom: 25px;
+    }
+    .line{
+      margin: auto;
+      width: 60px;
+      border-top: 3px solid #333333;
+    }
+  }
+
+  .carouselle{
+    height: 625px;
+    #myCarousel{
+      height: 625px;
+    }
+    .carousel-indicators {
+      //bottom: 170px;
+      //padding-bottom: 10px;
+      li {
+        width: 15px;
+        height: 15px;
+        border: 2px solid white;
+      }
+      li.active {
+        width: 15px;
+        height: 15px;
+        margin: 1px;
+
+      }
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 625px;
+      line-height: 1;
+      object-fit: cover;
+    }
+    .carousel-inner>.item {
+      -webkit-transition: 0.95s ease-in-out left;
+      transition: 0.95s ease-in-out left;
+      -webkit-transition: 0.95s, ease-in-out, left;
+      -moz-transition: .95s, ease-in-out, left;
+      -o-transition: .95s, ease-in-out, left;
+      transition: .95s, ease-in-out, left;
+    }
+    .carousel-caption{
+      background-color: rgba(0,0,0,.5);
+      right: 55%;
+      padding: 30px;
+      left: 20%;
+      text-align: left;
+      bottom: 55%;
+      h3{
+        font-size: 14px;
+        color: white;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid grey;
+        padding-bottom: 20px;
+      }
+      .date{
+        margin-bottom: 10px;
+
+      }
+      p{
+        line-height: 1.6;
+      }
+    }
+
+    .carousel-control{
+      background: transparent;
+      opacity: 1;
+    }
+    .item{
+      margin-bottom: 20px;
+      height: 630px;
+    }
+    .carousel-control.right, .carousel-control.left{
+      top: 45%;
+      span{
+        font-size: 48px;
+      }
+    }
+  }
+
+  .new-caption-area{
+    padding: 20px;
+  }
+
+  #intro{
+    background-color: #ffcc33;
+    .intro-box{
+      text-align: center;
+      padding: 0 20px;
+      h2{
+        text-transform: uppercase;
+      }
+      .line-intro{
+
+      }
+      p{
+        margin-top: 35px;
+      }
+    }
+  }
+
+  #quote{
+
+    .quote-content{
+      font-size: 24px;
+      text-align: -webkit-center;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    .quote-author{
+      text-align: -webkit-right;
+      font-size: 20px;
+    }
+  }
+
+  #video{
+    background-color: #f1f1f1;
+    .vertical-align{
+      /* Extra small devices (767px and down) */
+      @media (max-width: 767px) {
+        display: block; /* Turn off the flexible box layout */
+        p{
+          margin-bottom: 30px;
+        }
+      }
+      /* Small devices (tablets, 768px and up) */
+      @media (min-width: 768px) {
+        display: flex;
+        align-items: center;
+
+      }
+    }
+    iframe{
+      width: 100%;
+    }
+  }
+
+  #services{
+    background-color: #ffcc33;
+
+    .service-row1{
+      margin-bottom: 50px;
+
+    }
+
+    .service-row1, .service-row2{
+      text-align: center;
+      h3{
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 28px;
+        margin-bottom: 30px;
+        margin-bottom: 30px;
+      }
+      ul{
+        list-style: none;
+        font-size: 19px;
+        padding-left: 0;
+      }
+    }
+
+    .service-descrip{
+      @media (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+    }
+
+  }
+
+  #contact-us{
+
+    .contact-info{
+      .contact-detail {
+        text-align: center;
+        margin-bottom: 60px;
+        i.fa{
+          text-align: center;
+          font-size: 30px;
+          background-color: #FFCC33;
+          color: #ffffff;
+          padding: 25px 0;
+          border-radius: 50px;
+          margin: 0 10px;
+          margin-right: 20px;
+          width: 82px;
+          height: 80px;
+          transition: background-color 0.5s;
+        }
+        h4{
+          margin-top: 20px;
+          a{
+            color: inherit;
+          }
+          a:hover{
+            color: #FFCC33;
+          }
+        }
+      }
+    }
+
+    .nf-form-cont{
+      .nf-form-fields-required, .nf-field-label{
+        display: none;
+      }
+      .nf-error{
+        .ninja-forms-field{
+          border: 1px solid #333333;
+        }
+      }
+      .nf-error-msg {
+        display: block;
+        text-align: center;
+        color: red;
+      }
+      .nf-field{
+        text-align: center;
+        .color{
+          background-color: #ffcc33;
+          border-color: #ffcc33;
+          text-transform: uppercase;
+          font-size: 12px;
+          word-spacing: 2px;
+          padding: 10px 20px;
+        }
+        .color:focus, .color:hover{
+          border-color: #333333;
+          background-color: #ffcc33;
+        }
+      }
+    }
+  }
+}
+
+.scroll-to-top{
+  margin: 10px;
+}
+
+@media only screen and (max-width: $break-m) and (min-width: 768px){
+  .carouselle {
+    max-height: 300px;
+    .carousel-caption{
+      position: relative !important;
+      bottom: 0 !important;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      max-height: 300px;
+      object-fit: cover;
+    }
+    .carousel, .carousel-inner{
+      max-height: 300px;
+    }
+    .carousel-indicators{
+      bottom: 0 ;
+    }
+    .carousel-control{
+      top: 45%;
+    }
+  }
+}
+
+@media only screen and (max-width: $break-s) {
+  .carouselle {
+    max-height: 200px !important;
+    .carousel-caption {
+      position: relative !important;
+      bottom: 0 !important;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .carousel, .carousel-inner{
+      max-height: 200px;
+    }
+    .carousel-indicators{
+      bottom: 0;
+    }
+    .carousel-control{
+      top: 45%;
+    }
+  }
+}
+
+@media only screen and (max-width: $break-xs) {
+  .carouselle{
+    .carousel{
+      .carousel-inner{
+        .item{
+          img{
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
